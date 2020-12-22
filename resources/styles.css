@@ -1,0 +1,112 @@
+body {
+    color: #333333;
+    background-color: #fbfbfb;
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+    font-size: 18px;
+}
+.title {
+    margin: 4rem auto;
+    padding: 20px;
+    text-align: center;
+}
+.logo-labs {
+    width: 160px;
+    height: 160px;
+    background: url("logo-labs.png") no-repeat;
+    background-size: contain;
+    display: inline-block;
+}
+.logo-labs:hover {
+    background: url("logo-labs-hover.gif") no-repeat;
+    background-size: contain;
+}
+.logo-systems {
+    width: 160px;
+    height: 160px;
+    background: url("logo-systems.png") no-repeat;
+    background-size: contain;
+    display: inline-block;
+}
+.logo-systems:hover {
+    background: url("logo-systems-hover.gif") no-repeat;
+    background-size: contain;
+}
+
+h1 {
+    font-size: 2.6rem;
+    font-family: 'Bitter', serif;
+}
+h2 {
+    font-size: 1.8rem;
+    font-family: 'Bitter', serif;
+}
+h3 {
+    font-size: 1.2rem;
+    font-family: 'Bitter', serif;
+    font-weight: bold;
+}
+p {
+    margin: 0 10%;
+    text-align: left;
+}
+
+.lede {
+    font-size: 1rem;
+    font-style: italic;
+    text-align: center;
+}
+
+.menu {
+    font-size: 1.1rem;
+}
+.menu ul {
+    padding-inline-start: 0px;
+    text-align: center;
+}
+.menu li {
+    list-style: none;
+    display: inline-block;
+    margin: 1rem 1.2rem;
+}
+.menu li a {
+    border-bottom: 1px solid #8581B233;
+    text-decoration: none;
+    color: #333333;
+    letter-spacing: 4%;
+}
+.menu li a:hover {
+    border-bottom: 2px solid #333333;
+    font-weight: bolder;
+    color: #333333;
+    letter-spacing: 0%;
+}
+
+section {
+    margin: 1rem auto 8rem auto;
+    width: 80%;
+}
+.callout, .services {
+    display: inline-block;
+    padding: 1rem;
+    margin: 1rem;
+    background: #ffffff;
+    border: 1px solid #8581B233;
+}
+.intro {
+    width: 60%;
+    padding: .5rem;
+    margin: .5rem auto;
+    text-align: center;
+}
+.services {
+    width: 30%;
+}
+.services h3::after {
+    content: '';
+    display:block;
+    margin: 0.5rem auto;
+    width: 6rem;
+    height: 1px;
+    background: #8581B233;
+}
